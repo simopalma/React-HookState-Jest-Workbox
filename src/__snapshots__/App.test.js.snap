@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`React Test App Should render correctly 1`] = `
+<div>
+  <div
+    className="app-container"
+  />
+  <dialog
+    className="nes-dialog is-rounded"
+    id="modal-post"
+    onClick={[Function]}
+  >
+    <span />
+  </dialog>
+</div>
+`;
+
+exports[`React Test CommentRow Should render correctly 1`] = `
+<section
+  className="message -left"
+>
+  <i
+    className="nes-bcrikko icon"
+  />
+  <div
+    className="nes-balloon from-left"
+  >
+    <p />
+  </div>
+</section>
+`;
+
+exports[`React Test Post Should render correctly 1`] = `
+<div
+  className="post-container"
+>
+  <p
+    className="user nes-pointer"
+    onClick={[Function]}
+  >
+    <i
+      className="nes-ash"
+    />
+     
+    <span>
+       
+      test name
+       
+    </span>
+  </p>
+  <p
+    className="title"
+  >
+     
+    sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+     
+  </p>
+  <p
+    className="body"
+  >
+     
+    lorem
+     
+  </p>
+  <span
+    className="comments-link nes-pointer"
+    onClick={[Function]}
+  >
+     Load Comments 
+  </span>
+</div>
+`;
+
+exports[`React Test PostModal Should render correctly 1`] = `
+<dialog
+  className="nes-dialog is-rounded"
+  id="modal-post"
+  onClick={[MockFunction]}
+>
+  <span />
+</dialog>
+`;

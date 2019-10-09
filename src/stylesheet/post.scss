@@ -1,0 +1,21 @@
+.post-container {
+    margin-bottom: 80px;
+    .user {
+        position: relative;
+        i {
+            transform: scale(0.6);
+            margin-left: -15px;
+        }
+        span {
+            position: absolute;
+            top: 55%;
+        }
+    }
+
+    .comments-link {
+        float: right;
+        margin-top: 15px;
+        margin-right: 65px;
+        text-decoration: underline !important;
+    }
+}

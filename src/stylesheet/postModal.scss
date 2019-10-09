@@ -1,0 +1,32 @@
+#modal-post {
+    padding: 0;
+    max-width: 70%;
+
+    .modal-container {
+        padding: 24px 32px;
+
+        i {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+        }
+
+        .details-container {
+            width: 50%;
+            float: left;
+            padding: 0 20px;
+            margin: 40px 0;
+
+            .details-title {
+                display: block;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 16px;
+            }
+
+            .container-info {
+                display: block;
+            }
+        }
+    }
+}

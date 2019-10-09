@@ -1,0 +1,19 @@
+.message-list {
+    margin-top: 42px;
+    .message {
+        margin-bottom: 32px;
+        .icon {
+            margin-right: 30px;
+            vertical-align: bottom;
+        }
+        &.-right {
+            .icon {
+                margin-left: 30px;
+            }
+        }
+        .nes-balloon {
+            vertical-align: top;
+            max-width: 82%;
+        }
+    }
+}
